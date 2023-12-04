@@ -1,0 +1,74 @@
+@media all and (min-width:1024px) {
+    .parent {
+        align-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-flow: 282px 266px;
+        gap: 24px 30px;
+        grid-template-areas:
+            "child-1 child-1 child-2 child-5"
+            "child-3 child-4 child-4 child-5"
+
+        ;
+    }
+
+    .child-1 {
+        grid-area: child-1;
+    }
+
+    .child-2 {
+        grid-area: child-2;
+    }
+
+    .child-3 {
+        grid-area: child-3;
+    }
+
+    .child-4 {
+        grid-area: child-4;
+    }
+
+    .child-5 {
+        grid-area: child-5;
+    }
+
+    .title {
+        max-width: 476px;
+    }
+
+    .paragrap {
+        max-width: 476px;
+    }
+
+    .title-2 {
+        max-width: 191px;
+    }
+
+    .paragrap-2 {
+        max-width: 191px;
+    }
+
+    .title-3 {
+        max-width: 191px;
+    }
+
+    .paragrap-3 {
+        max-width: 191px;
+    }
+
+    .title-4 {
+        max-width: 476px;
+    }
+
+    .paragrap-4 {
+        max-width: 476px;
+    }
+
+    .title-5 {
+        max-width: 191px;
+    }
+
+    .paragrap-5 {
+        max-width: 191px;
+    }
+}

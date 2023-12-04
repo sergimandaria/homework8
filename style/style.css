@@ -1,0 +1,138 @@
+:root {
+    --primary-fontsize-1: 1.3rem;
+    --primary-fontsize-2: 2rem;
+    --primary-fontfamily: Barlow Semi Condensed;
+}
+
+.parent {
+    height: 100vh;
+    font-family: var(--primary-fontfamily);
+    display: grid;
+    grid-template-areas:
+        "child-1"
+        "child-2"
+        "child-3"
+        "child-4"
+        "child-5"
+    ;
+    gap: 24px;
+    justify-content: center;
+    padding: 26px 32px 32px 32px;
+}
+
+p {
+    font-size: var(--primary-fontsize-1);
+    line-height: 18px;
+}
+
+h1 {
+    font-size: var(--primary-fontsize-2);
+    line-height: 20px;
+}
+
+/* child-1 */
+
+.child {
+    display: grid;
+    align-items: center;
+    gap: 1.6rem;
+    justify-content: center;
+    padding: 26px 32px 32px 32px;
+    border-radius: 10px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.2474);
+}
+
+.child-1 {
+    background-color: rgba(115, 63, 200, 1);
+    position: relative;
+    grid-area: child-1;
+}
+
+.flex {
+    display: flex;
+    gap: 1.7rem;
+}
+
+.title {
+    max-width: 263px;
+    text-align: start;
+    color: rgba(255, 255, 255, 1);
+}
+
+.paragrap {
+    max-width: 247px;
+    text-align: start;
+    color: rgba(207, 207, 207, 1);
+}
+
+.only1 {
+    position: absolute;
+    top: 0;
+    right: 24px;
+}
+
+/* child-2 */
+.title-2 {
+    max-width: 263px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.paragrap-2 {
+    max-width: 263px;
+    color: rgba(207, 207, 207, 1);
+}
+
+.child-2 {
+    background-color: rgba(72, 85, 106, 1);
+    grid-area: child-2;
+}
+
+/* child-3 */
+
+.title-3 {
+    max-width: 263px;
+    color: rgba(72, 85, 106, 1);
+}
+
+.paragrap-3 {
+    max-width: 263px;
+    color: rgba(72, 85, 106, 1);
+    font-weight: 500;
+}
+
+.child-3 {
+    background-color: rgba(255, 255, 255, 1);
+    grid-area: child-3;
+}
+
+/* child-4 */
+.title-4 {
+    max-width: 263px;
+    color: rgba(236, 242, 248, 1);
+}
+
+.paragrap-4 {
+    max-width: 263px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.child-4 {
+    background-color: rgba(25, 32, 45, 1);
+    grid-area: child-4;
+}
+
+/* child-5 */
+.title-5 {
+    max-width: 263px;
+    color: rgba(72, 85, 106, 1);
+}
+
+.paragrap-5 {
+    max-width: 263px;
+    color: rgba(72, 85, 106, 1);
+}
+
+.child-5 {
+    background-color: rgba(255, 255, 255, 1);
+    grid-area: child-5;
+}
